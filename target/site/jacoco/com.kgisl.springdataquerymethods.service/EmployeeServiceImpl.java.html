@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>EmployeeServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">springdataquerymethods</a> &gt; <a href="index.source.html" class="el_package">com.kgisl.springdataquerymethods.service</a> &gt; <span class="el_source">EmployeeServiceImpl.java</span></div><h1>EmployeeServiceImpl.java</h1><pre class="source lang-java linenums">package com.kgisl.springdataquerymethods.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.kgisl.springdataquerymethods.model.Employee;
+import com.kgisl.springdataquerymethods.repository.EmployeeRepository;
+
+@Service
+<span class="fc" id="L12">public class EmployeeServiceImpl implements EmployeeService{</span>
+    @Autowired
+   public EmployeeRepository empRepo;
+
+    @Override
+    public List&lt;Employee&gt; getAll() {
+<span class="nc" id="L18">        return empRepo.findAll();</span>
+      
+    }
+
+    @Override
+    public Employee getBtId(int id) {
+<span class="nc" id="L24">       return empRepo.findById(id).orElseThrow(()-&gt; new IllegalArgumentException(&quot;Not Found&quot;));</span>
+    }
+
+    @Override
+    public void delete(Employee emp) {
+<span class="nc" id="L29">       empRepo.delete(emp);</span>
+<span class="nc" id="L30">    }</span>
+
+    @Override
+    public Employee create(Employee emp) {
+<span class="nc" id="L34">       return empRepo.save(emp);</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

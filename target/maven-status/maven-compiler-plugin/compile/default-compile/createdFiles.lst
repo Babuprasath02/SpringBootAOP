@@ -1,0 +1,6 @@
+com\kgisl\springdataquerymethods\service\EmployeeService.class
+com\kgisl\springdataquerymethods\service\EmployeeServiceImpl.class
+com\kgisl\springdataquerymethods\repository\EmployeeRepository.class
+com\kgisl\springdataquerymethods\SpringdataquerymethodsApplication.class
+com\kgisl\springdataquerymethods\controller\EmployeeController.class
+com\kgisl\springdataquerymethods\model\Employee.class

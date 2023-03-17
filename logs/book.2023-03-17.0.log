@@ -1,0 +1,5 @@
+2023-03-17 17:22:43.163 [main] INFO  c.k.s.SpringdataquerymethodsApplication - Starting SpringdataquerymethodsApplication on KGISL059 with PID 22116 (D:\Babu\springdataquerymethods\target\classes started by babuprasath.b in D:\Babu\springdataquerymethods)
+2023-03-17 17:22:43.163 [main] INFO  c.k.s.SpringdataquerymethodsApplication - No active profile set, falling back to default profiles: default
+2023-03-17 17:22:44.181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 17:22:44.281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 2 repository interfaces.
+2023-03-17 17:22:44.686 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd2d310b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

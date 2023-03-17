@@ -1,0 +1,11 @@
+2023-03-17 17:22:45.763 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2527 ms
+2023-03-17 17:22:46.044 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-17 17:22:46.506 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-17 17:22:47.012 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-03-17 17:22:47.173 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2023-03-17 17:22:47.174 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-03-17 17:22:47.438 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-03-17 17:22:47.686 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-03-17 17:22:48.751 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'

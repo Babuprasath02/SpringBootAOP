@@ -1,0 +1,8 @@
+2023-03-17 17:23:11.767 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-17 17:23:11.788 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2023-03-17 17:23:12.739 [http-nio-8080-exec-3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 432 ms
+2023-03-17 17:23:17.894 [http-nio-8080-exec-5] INFO  c.k.s.aspect.BookAspect - -----------------------@Before advice called--------------------------------------
+2023-03-17 17:23:17.895 [http-nio-8080-exec-5] INFO  c.k.s.aspect.BookAspect - Entering in Method :  findByBookId
+2023-03-17 17:23:17.896 [http-nio-8080-exec-5] WARN  c.k.s.aspect.BookAspect - Argumentsttt :  [5]
+2023-03-17 17:23:18.022 [http-nio-8080-exec-5] INFO  c.k.s.aspect.BookAspect - ------------------- @AfterReturning advice called ---------------------------------
+2023-03-17 17:23:18.023 [http-nio-8080-exec-5] INFO  c.k.s.aspect.BookAspect -  >Returning for class : {} ; Method : {} com.kgisl.springdataquerymethods.service.BookServiceImpfindByBookId
